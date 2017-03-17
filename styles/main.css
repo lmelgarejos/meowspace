@@ -1,0 +1,159 @@
+
+a{
+  text-decoration: none;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+header {
+  background-color: lightblue;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  height: 90px;
+
+}
+
+header  h2 {
+  margin-top: 30px;
+  margin-left: 40px;
+  float: left;
+}
+
+header  li {
+  float: left;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+  margin-top: 21.5px;
+  /*width: 100%*/
+  /*position: absolute;*/
+}
+
+
+main {
+  margin-top: 90px;
+  clear: both;
+}
+
+main section:first-child {
+  padding-top: 100px;
+}
+
+.big {
+  background-color: gray;
+  font-size: 100px;
+}
+
+.center {
+  /*position: relative;*/
+  height: 400px;
+  background-color: gray;
+  /*text-align: center;*/
+  /*font-size: 200px*/
+  text-align: center;
+  vertical-align: middle;
+}
+
+#pp {
+  text-align: center;
+  font-size: 50px
+}
+
+article {
+  padding: 20px;
+  border: 2px solid black;
+  width: 25%;
+  height: 300px;
+  border-radius: 25px;
+  margin: 15px;
+  float: left;
+}
+
+article h3, p a {
+  text-align: center;
+
+}
+
+h3  {
+border: 2px;
+/*border-bottom: 2px;*/
+}
+
+p a {
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 20px;
+  /*position: relative;
+  bottom: 0px;*/
+  /*text-align: center;*/
+}
+
+main section:nth-child(3) {
+  padding: 0 80px;
+}
+main section:nth-child(3) > div {
+  float: left;
+  background-color: blue;
+  width: 50%
+}
+
+.right {
+  margin: auto;
+  width: 50%;
+}
+
+#jointheclub {
+  float: left;
+  width: 40%
+}
+
+img {
+  float: right;
+  width: 50%
+}
+
+
+
+
+
+footer {
+  background-color: lightblue;
+  width: 100%;
+  /*bottom: 0px;*/
+  display: inline-block;
+}
+
+
+#footerleft {
+  margin-bottom: 30px;
+  margin-left: 40px;
+  float: left;
+  clear: both;
+  /*display: inline-block;*/
+  width: 40%
+}
+
+/*footer  li {
+  margin-left: 20px;
+}*/
+
+footer nav {
+  /*display: inline-block;*/
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 21.5px;
+  clear: both;
+  width: 40%
+}
